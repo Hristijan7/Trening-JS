@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Trening</title>
+</head>
+<body>
+    <div id="pictures">
+        <img src="pic-1.jpg" alt="1">
+        <img src="pic-2.jpg" alt="2">
+        <img src="pic-3.jpg" alt="3">
+        <img src="pic-4.jpg" alt="4">
+        <img src="pic-5.jpg" alt="5">
+        <img src="pic-6.jpg" alt="6">
+        <button class="prev">prev</button>
+        <button class="next">next</button>
+    </div>
+    <div class="dots">
+        <button ></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+    </div>
+    <div id="gallery">
+        <img src="pic-1.jpg" alt="1">
+        <img src="pic-2.jpg" alt="2">
+        <img src="pic-3.jpg" alt="3">
+        <img src="pic-4.jpg" alt="4">
+        <img src="pic-5.jpg" alt="5">
+        <img src="pic-6.jpg" alt="6">
+        <div class="hide">
+            <img src="pic-1.jpg" alt="1">
+            <img src="pic-2.jpg" alt="2">
+            <img src="pic-3.jpg" alt="3">
+            <img src="pic-4.jpg" alt="4">
+            <img src="pic-5.jpg" alt="5">
+            <img src="pic-6.jpg" alt="6">
+                <button>x</button>
+        </div>
+    </div>
+
+    <div id="game">
+        <div class="firstRow">
+            <button>Again!</button>
+            <p>Between 1 and 20</p>
+        </div>
+        <div class="secundRow">
+            <h1>Guess My Number!</h1>
+            <div class="line"></div>
+            <div id="question">
+                <p class="question">?</p>
+            </div>
+        </div>
+        <div class="LastRow">
+            <div class="check">
+                <input type="number" id="quantity" name="quantity" min="1" max="20">
+                <button>Check!</button>
+
+            </div>
+            <div class="info">
+                <div class="text">
+                    <p>Start guessing...</p>
+                </div>
+                <div class="icon"></div>
+                    <i class="fa fa-modx" aria-hidden="true"> Score: 0</i>
+                    <i class="fa fa-trophy" aria-hidden="true"> Highscore: 0</i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" ></script>
+    <script src="home.js"></script>
+</body>
+</html>
